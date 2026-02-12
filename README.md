@@ -50,12 +50,16 @@ Voice cloning technology has made significant strides. Here are a few notable ex
 -   [[D] Realtime Neural Voice Style Transfer Feasibility and Implications](https://www.reddit.com/r/MachineLearning/comments/8opn4c/d_realtime_neural_voice_transfer/)
 -   [[D] Is there an implementation of Neural Voice Cloning?](https://www.reddit.com/r/MachineLearning/comments/8o7mkt/d_is_there_an_implementation_of_neural_voice/)
 -   [[D] Are the hyper-realistic results of Tacotron-2 and Wavenet not reproducible?](https://www.reddit.com/r/MachineLearning/comments/845uji/d_are_the_hyperrealistic_results_of_tacotron2_and/)
--   [[P] Voice Style Transfer: Speaking like Kate Winslet](https://www.reddit.com/r/MachineLearning/comments/7a0wcv/p_voice_style_transfer_speaking_like_kate_winslet/)
+-   [[P] Voice Style Transfer: Speaking like Kate Winslet](https://www.reddit.com/r/MachineLearning/comments/7a0wcv/p_voice_transfer_speaking_like_kate_winslet/)
 
 ## Samples from github 💻
 
 | Samples | Pretrained Models | Code | Paper | Output Quality | Year of Launch |
 | --- | :---: | :---: | :---: | :---: | :---: |
+| [MeloTTS samples](https://github.com/myshell-ai/MeloTTS)|Yes|[Code](https://github.com/myshell-ai/MeloTTS)|[Codebase](https://github.com/myshell-ai/MeloTTS)| B | 2024 |
+| [Parler-TTS samples](https://github.com/huggingface/parler-tts)|Yes|[Code](https://github.com/huggingface/parler-tts)|[2402.01912](https://arxiv.org/abs/2402.01912)| B | 2024 |
+| [XTTS-v2 samples](https://coqui.ai/xtts-v2-demo)|Yes|[Code](https://github.com/idiap/coqui-ai-TTS)|[2309.02055](https://arxiv.org/abs/2309.02055)| A | 2023 |
+| [Bark samples](https://suno.ai/)|Yes|[Code](https://github.com/suno-ai/bark)|--| A | 2023 |
 | [rayhane's Tacotron2 samples(6k4 steps(whatever that means))](https://rayhane-mamah.github.io/Tacotron-2_audio_samples/)|--|--|--| D | 2019 |
 | [Google tacotron + style transfer sample](https://google.github.io/tacotron/publications/end_to_end_prosody_transfer/)(official)|--|--|[1803.09047](https://arxiv.org/abs/1803.09047)| A | 2018 |
 | [NVIDIA's waveglow](https://nv-adlr.github.io/WaveGlow)|[Download Model](https://drive.google.com/file/d/1cjKPHbtAMh_4HTHmuIGNkbOkPBD9qwhj/view?usp=sharing)|[Code](https://github.com/NVIDIA/waveglow)|[1811.00002](https://arxiv.org/abs/1811.00002)| A | 2018 |
