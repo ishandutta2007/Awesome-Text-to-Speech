@@ -56,30 +56,30 @@ Voice cloning technology has made significant strides. Here are a few notable ex
 
 | Samples | Pretrained Models | Code | Paper | Output Quality | Year of Launch |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| [Baidu's Deep Voice samples](https://audiodemos.github.io)(official)|--|--|--| D | 2017 |
-| [Baidu's Deep Voice 3 samples](http://research.baidu.com/Blog/index-view?id=91)(official)|--|--|[1710.07654](https://arxiv.org/pdf/1710.07654.pdf)| B | 2017 |
-| [Google Tacotron2 samples](https://google.github.io/tacotron/publications/tacotron2/index.html)(official) | -- | -- | [1712.05884](https://arxiv.org/abs/1712.05884) | A | 2017 |
+| [rayhane's Tacotron2 samples(6k4 steps(whatever that means))](https://rayhane-mamah.github.io/Tacotron-2_audio_samples/)|--|--|--| D | 2019 |
 | [Google tacotron + style transfer sample](https://google.github.io/tacotron/publications/end_to_end_prosody_transfer/)(official)|--|--|[1803.09047](https://arxiv.org/abs/1803.09047)| A | 2018 |
 | [NVIDIA's waveglow](https://nv-adlr.github.io/WaveGlow)|[Download Model](https://drive.google.com/file/d/1cjKPHbtAMh_4HTHmuIGNkbOkPBD9qwhj/view?usp=sharing)|[Code](https://github.com/NVIDIA/waveglow)|[1811.00002](https://arxiv.org/abs/1811.00002)| A | 2018 |
 | [NVIDIA's tacotron2 + waveglow](https://nv-adlr.github.io/WaveGlow)|[Download Model](https://drive.google.com/file/d/1c5ZTuT7J08wLUoVZ2KkUs_VdZuJ86ZqA/view?usp=sharing)|[Code](https://github.com/NVIDIA/tacotron2)|--| A | 2018 |
-| [Griffin-Lim](https://nv-adlr.github.io/WaveGlow)|--|--|--| A | 1984 |
-|[Deepmind Neural Discrete Representation Learning samples](https://avdnoord.github.io/homepage/vqvae/)(official)|--|--|[1711.00937](https://arxiv.org/abs/1711.00937)| B | 2017 |
-| [r9y9's wavenet vocoder Tacotron2(189k iterations)](https://r9y9.github.io/wavenet_vocoder/)|[(Download Tacotron2 model)](https://www.dropbox.com/s/vx7y4qqs732sqgg/pretrained.tar.gz?dl=0) - [(Download wavenet model(1000k iterations))](https://www.dropbox.com/s/zdbfprugbagfp2w/20180510_mixture_lj_checkpoint_step000320000_ema.pth?dl=0) - [(Get models)](https://github.com/r9y9/wavenet_vocoder#pre-trained-models)|--| [1712.05884](https://arxiv.org/abs/1712.05884) and [1611.09482](https://arxiv.org/abs/1611.09482)| B | 2017 |
-|[dhgrs's implementation of Neural Discrete Representation Learning samples](https://nana-music.com/playlists/2276008/)|[Download Model](https://drive.google.com/file/d/1Ayy9NbpBoZCj1WVmwHGnUTG_jB2eonVU/view)|[Code](https://github.com/dhgrs/chainer-VQ-VAE)|[1711.00937](https://arxiv.org/abs/1711.00937)| D | 2017 |
 | [mazzzystar's Tacotron-WaveRNN samples](https://github.com/mazzzystar/Tacotron-WaveRNN#samples)(730k iterations)|[Get Model](https://github.com/mazzzystar/Tacotron-WaveRNN#pretrained-model)|[Code](https://github.com/mazzzystar/Tacotron-WaveRNN)|--| A | 2018 |
 | [syang1993's tacotron + style transfer samples](https://syang1993.github.io/gst-tacotron/)(200k iterations)|[Model ErnstTmp(232k iter)](https://www.dropbox.com/s/fl1vqfz6611s8zw/checkpoint234000.tar?dl=0)|--|[1803.09047](https://arxiv.org/abs/1803.09047) and [1803.09017](https://arxiv.org/abs/1803.09017)| C | 2018 |
-| [keithito's tacotron samples(414k iterations)](https://keithito.github.io/audio-samples/)|[Get model](https://github.com/keithito/tacotron#using-a-pre-trained-model)|--|--| D | 2017 |
-| [rayhane's Tacotron2 samples(6k4 steps(whatever that means))](https://rayhane-mamah.github.io/Tacotron-2_audio_samples/)|--|--|--| D | 2019 |
 | [Kyubyong's tacotron on LJ dataset(200k iterations)](https://soundcloud.com/kyubyong-park/sets/tacotron_lj_200k)|[Download model](https://www.dropbox.com/s/8kxa3xh2vfna3s9/LJ_logdir.zip?dl=0)|--|--| D | 2018 |
 | [Kyubyong's tacotron on nick dataset(215k iterations)](https://soundcloud.com/kyubyong-park/sets/tacotron_nick_215k)|--|--|--| D | 2018 |
 | [Kyubyong's tacotron on web dataset(183k iterations)](https://soundcloud.com/kyubyong-park/sets/tacotron_web_183k)|[Download model](https://www.dropbox.com/s/g7m6xhd350ozkz7/WEB_logdir.zip?dl=0)|--|--| D | 2018 |
 | [Kyubyong's expressive tacotron(420k iterations)](https://soundcloud.com/kyubyong-park/sets/expressive_tacotron_420k)|--|[Code](https://github.com/Kyubyong/expressive_tacotron)|[1803.09047](https://arxiv.org/abs/1803.09047)| D | 2018 |
-| [Kyubyong's dc-tts on LJ dataset(800k iterations)](https://soundcloud.com/kyubyong-park/sets/dc_tts_lj_800k)|[Get model](https://github.com/Kyubyong/dc_tts#pretrained-model-for-lj)|--|--| D | 2017 |
 | [Kyubyong's dc-tts on nick dataset(800k iterations)](https://soundcloud.com/kyubyong-park/sets/dc_tts_nick_800k)|--|--|--| D | 2018 |
+| [Baidu's Deep Voice samples](https://audiodemos.github.io)(official)|--|--|--| D | 2017 |
+| [Baidu's Deep Voice 3 samples](http://research.baidu.com/Blog/index-view?id=91)(official)|--|--|[1710.07654](https://arxiv.org/pdf/1710.07654.pdf)| B | 2017 |
+| [Google Tacotron2 samples](https://google.github.io/tacotron/publications/tacotron2/index.html)(official) | -- | -- | [1712.05884](https://arxiv.org/abs/1712.05884) | A | 2017 |
+|[Deepmind Neural Discrete Representation Learning samples](https://avdnoord.github.io/homepage/vqvae/)(official)|--|--|[1711.00937](https://arxiv.org/abs/1711.00937)| B | 2017 |
+| [r9y9's wavenet vocoder Tacotron2(189k iterations)](https://r9y9.github.io/wavenet_vocoder/)|[(Download Tacotron2 model)](https://www.dropbox.com/s/vx7y4qqs732sqgg/pretrained.tar.gz?dl=0) - [(Download wavenet model(1000k iterations))](https://www.dropbox.com/s/zdbfprugbagfp2w/20180510_mixture_lj_checkpoint_step000320000_ema.pth?dl=0) - [(Get models)](https://github.com/r9y9/wavenet_vocoder#pre-trained-models)|--| [1712.05884](https://arxiv.org/abs/1712.05884) and [1611.09482](https://arxiv.org/abs/1611.09482)| B | 2017 |
+|[dhgrs's implementation of Neural Discrete Representation Learning samples](https://nana-music.com/playlists/2276008/)|[Download Model](https://drive.google.com/file/d/1Ayy9NbpBoZCj1WVmwHGnUTG_jB2eonVU/view)|[Code](https://github.com/dhgrs/chainer-VQ-VAE)|[1711.00937](https://arxiv.org/abs/1711.00937)| D | 2017 |
+| [keithito's tacotron samples(414k iterations)](https://keithito.github.io/audio-samples/)|[Get model](https://github.com/keithito/tacotron#using-a-pre-trained-model)|--|--| D | 2017 |
+| [Kyubyong's dc-tts on LJ dataset(800k iterations)](https://soundcloud.com/kyubyong-park/sets/dc_tts_lj_800k)|[Get model](https://github.com/Kyubyong/dc_tts#pretrained-model-for-lj)|--|--| D | 2017 |
 | [Kyubyong's dc-tts kate(800k iterations)](https://soundcloud.com/kyubyong-park/sets/dc_tts_kate_800k)|--|--|--| D | 2017 |
 | [andabi's deep voice conversion](https://soundcloud.com/andabi/sets/voice-style-transfer-to-kate-winslet-with-deep-neural-networks)|--|--|--| D | 2017 |
 | [Facebook Loop samples](https://ytaigman.github.io/loop/)(official)|[Get model](https://github.com/facebookresearch/loop#pretrained-models)|--|--| D | 2017 |
 | [mazzzystar's randomCNN voice transfer](https://soundcloud.com/mazzzystar/sets/speech-conversion-sample)|--|--|[1712.08363](https://arxiv.org/abs/1712.08363)| D | 2017 |
+| [Griffin-Lim](https://nv-adlr.github.io/WaveGlow)|--|--|--| A | 1984 |
 
 ## Work in progress 🚧
 
