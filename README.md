@@ -34,6 +34,7 @@ Welcome to the most comprehensive, meticulously curated, and continuously update
 - [Current Trends (2026)](#-current-state-of-text-to-speech-2026-update)
 - [Commercial & Cloud Platforms](#-cloud-based--commercial-ai-voice-generation-platforms)
 - [Open-Source Libraries](#-open-source-text-to-speech-libraries--projects)
+- [Independent CPU Benchmarks](#-independent-cpu-benchmarks--reproducible-measurements)
 - [Advanced Voice Cloning](#-advanced-voice-cloning--neural-voice-synthesis-)
 - [Research & Community](#-notable-research-papers--community-discussions-)
 - [FAQ & Use Cases](#-frequently-asked-questions--seo-insights)
@@ -132,6 +133,16 @@ If you are looking for **free text-to-speech models for commercial use** or want
 | **LocalMode** | LocalMode | **In-browser TTS.** Runs Kokoro (29 voices) and other AI models 100% in the browser via WebGPU/WASM. No server, no API keys, offline after first load. | JavaScript / TypeScript | [![GitHub stars](https://img.shields.io/github/stars/LocalMode-AI/LocalMode?style=social&color=white)](https://github.com/LocalMode-AI/LocalMode/stargazers) |
 | **Vocello** | PowerBeef | **Native Mac & iPhone app.** Qwen3-TTS with preset speakers, natural-language voice design, and voice cloning. Runs entirely on Apple Silicon with no Python runtime, faster than realtime on an 8 GB M2. | Swift / MLX | [![GitHub stars](https://img.shields.io/github/stars/PowerBeef/Vocello?style=social&color=white)](https://github.com/PowerBeef/Vocello/stargazers) |
 | **loudkit** | LoudReader | **On-device TTS with native SDKs.** 28 voices in 10 languages, voice cloning from about 10 s of audio, and a local server with an OpenAI-compatible speech endpoint. PyTorch, ONNX Runtime and CoreML backends; the Swift, Go, Rust and TypeScript ports run without Python. Apache-2.0, derived from Chatterbox. | Python / Swift / Go / Rust / TypeScript | [![GitHub stars](https://img.shields.io/github/stars/loudreader/loudkit?style=social&color=white)](https://github.com/loudreader/loudkit/stargazers) |
+
+### 📊 Independent CPU Benchmarks & Reproducible Measurements
+
+Almost every speed figure in the tables above is **reported by the vendor or by the model authors**. This section collects **independent measurements you can repeat**: published alongside the raw data, the exact machine, and the script that produced them.
+
+| Benchmark | What it measures | Machine | Raw data |
+| --- | --- | --- | --- |
+| [tts-cpu-benchmark](https://github.com/obole-ia/tts-cpu-benchmark) | Real-time factor of **Piper** vs **Kokoro-82M**, same text, same protocol, 12 runs each: Piper **×8.11–×8.47**, Kokoro **×0.91–×0.93**. Also isolates the **per-call cost of sentence chunking**: 0.51 s fixed per call. | 2× ARM Neoverse-N1, 11 GiB, **no GPU** | Yes — CC-BY 4.0, plus a dated register of every figure that had to be corrected |
+
+> **Why this belongs next to the tables above.** A benchmark that synthesises its test text **in one block** overstates an engine like Kokoro by about **8 %** against what a real pipeline does, because a real pipeline splits into sentences — and the cost is per *call*, not per character. Most published TTS numbers are measured in one block. It is worth knowing which kind of number you are reading.
 
 ### Advanced Voice Cloning & Neural Voice Synthesis 🧬
 
