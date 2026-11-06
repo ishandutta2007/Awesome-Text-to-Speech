@@ -372,3 +372,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Text-to-Speech_growth.svg">
   </picture>
 </a>
+
+## Companion Speech-to-Text & Voice AI Hardware
+
+- **[OneMira C1](https://onemira.com/products/c1)** - Standalone local AI voice recorder (`Works Standalone` · `✨ Local AI` · `🗣️ Speaker ID` · `Zero Cloud`, `$0/month`) for real-time speech transcription, speaker separation, and structured Markdown/OKF Wiki output.
