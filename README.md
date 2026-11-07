@@ -99,6 +99,7 @@ Leading platforms offering robust, scalable, and high-quality Text-to-Speech API
 | **RunAPI ElevenLabs SDK** | RunAPI | Multi-language SDKs for ElevenLabs text-to-speech, dialogue generation, sound effects, transcription, and audio isolation workflows. | Pay-as-you-go | **<$1M** (Indie) | [RunAPI ElevenLabs SDK](https://github.com/runapi-ai/elevenlabs-sdk) |
 | **Audexum** | Audexum | Text-to-speech and speech-to-text in one API: 43 voices, 32 TTS languages, 25 STT languages. ElevenLabs-compatible endpoint, so switching is a base-URL change. EU-hosted, every output watermarked. | **Free** (30k credits at signup, 3k/mo after) / EUR 4 | **<$1M** (Indie) | [Audexum](https://audexum.com/docs) |
 | **TextInMyVoice** | TextInMyVoice | Browser voice cloning from a 10-20 second sample, then text to speech in your own voice. The first voice and two generations work without an account, and the result downloads as an MP3. | **Free** (5,000 chars/mo, 1 saved voice) / $9 | **<$1M** (Indie) | [TextInMyVoice](https://textinmyvoice.com/) |
+| **Modelworks** | Modelworks | Hosted text-to-speech and speech-to-text behind one OpenAI-compatible API. Kokoro-82M for speech, 54 voices across nine languages, and text and audio are discarded when the request completes. Served from the EU. | **Free** (250,000 characters) / pay-as-you-go $12 per 1M chars | **<$1M** (Indie) | [Modelworks](https://modelworks.dev) |
 
 ### 🏗️ Open-Source Text-to-Speech Libraries & Local-First Projects
 
