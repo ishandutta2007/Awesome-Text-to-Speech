@@ -99,6 +99,7 @@ Leading platforms offering robust, scalable, and high-quality Text-to-Speech API
 | **RunAPI ElevenLabs SDK** | RunAPI | Multi-language SDKs for ElevenLabs text-to-speech, dialogue generation, sound effects, transcription, and audio isolation workflows. | Pay-as-you-go | **<$1M** (Indie) | [RunAPI ElevenLabs SDK](https://github.com/runapi-ai/elevenlabs-sdk) |
 | **Audexum** | Audexum | Text-to-speech and speech-to-text in one API: 43 voices, 32 TTS languages, 25 STT languages. ElevenLabs-compatible endpoint, so switching is a base-URL change. EU-hosted, every output watermarked. | **Free** (30k credits at signup, 3k/mo after) / EUR 4 | **<$1M** (Indie) | [Audexum](https://audexum.com/docs) |
 | **TextInMyVoice** | TextInMyVoice | Browser voice cloning from a 10-20 second sample, then text to speech in your own voice. The first voice and two generations work without an account, and the result downloads as an MP3. | **Free** (5,000 chars/mo, 1 saved voice) / $9 | **<$1M** (Indie) | [TextInMyVoice](https://textinmyvoice.com/) |
+| **UberLLM** | UberLLM | One API key for speech models (ElevenLabs TTS v3, MiniMax Speech-02 HD, Chatterbox HD, Orpheus, Kokoro) and transcription (Whisper, ElevenLabs Scribe v2), plus text, image, video and music models. OpenAI-compatible `/v1/audio/speech` endpoint; failed requests are not billed. | Pay-as-you-go (prepaid from $5, no free tier) | Undisclosed | [UberLLM](https://uberllm.dev/docs/media) |
 
 ### 🏗️ Open-Source Text-to-Speech Libraries & Local-First Projects
 
