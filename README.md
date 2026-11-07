@@ -98,6 +98,7 @@ Leading platforms offering robust, scalable, and high-quality Text-to-Speech API
 | **RunAPI ElevenLabs SDK** | RunAPI | Multi-language SDKs for ElevenLabs text-to-speech, dialogue generation, sound effects, transcription, and audio isolation workflows. | Pay-as-you-go | **<$1M** (Indie) | [RunAPI ElevenLabs SDK](https://github.com/runapi-ai/elevenlabs-sdk) |
 | **Audexum** | Audexum | Text-to-speech and speech-to-text in one API: 43 voices, 32 TTS languages, 25 STT languages. ElevenLabs-compatible endpoint, so switching is a base-URL change. EU-hosted, every output watermarked. | **Free** (30k credits at signup, 3k/mo after) / EUR 4 | **<$1M** (Indie) | [Audexum](https://audexum.com/docs) |
 | **TextInMyVoice** | TextInMyVoice | Browser voice cloning from a 10-20 second sample, then text to speech in your own voice. The first voice and two generations work without an account, and the result downloads as an MP3. | **Free** (5,000 chars/mo, 1 saved voice) / $9 | **<$1M** (Indie) | [TextInMyVoice](https://textinmyvoice.com/) |
+| **Grok Text to Speech** | Grok Text to Speech | Free browser front-end for xAI's Grok TTS API: all 28 built-in voices, 20 languages with auto-detect, speech tags for pauses, laughs and whispers, 24 kHz MP3 download, a page per voice and an API pricing calculator. | **Free** (1,000 chars/request, 20 gens/hour, 10k chars/day) | **<$1M** (Indie) | [Grok Text to Speech](https://groktexttospeech.com/) |
 
 ### 🏗️ Open-Source Text-to-Speech Libraries & Local-First Projects
 
