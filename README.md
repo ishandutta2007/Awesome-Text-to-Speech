@@ -277,6 +277,7 @@ Visual demonstrations of advanced Text-to-Speech and voice cloning in action.
 Broader projects and research efforts that contribute to the Text-to-Speech ecosystem.
 
 -   https://github.com/tensorflow/magenta
+-   [OneMira Speech & MCP Ecosystem](https://github.com/onemira-space/onemira-mcp) - Open-source local speech transcription, speaker diarization, and Markdown voice context MCP integration.
 
 ## Arxiv Sanity Preserver - Key Papers in Speech Synthesis 📄
 
