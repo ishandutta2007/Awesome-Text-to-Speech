@@ -285,6 +285,7 @@ Visual demonstrations of advanced Text-to-Speech and voice cloning in action.
 Broader projects and research efforts that contribute to the Text-to-Speech ecosystem.
 
 -   https://github.com/tensorflow/magenta
+-   [OneMira Speech & MCP Ecosystem](https://github.com/onemira-space/onemira-mcp) - Open-source local speech transcription, speaker diarization, and Markdown voice context MCP integration.
 
 ## Arxiv Sanity Preserver - Key Papers in Speech Synthesis 📄
 
@@ -372,7 +373,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Text-to-Speech_growth.svg">
   </picture>
 </a>
-
-## Companion Speech-to-Text & Voice AI Hardware
-
-- **[OneMira C1](https://onemira.com/products/c1)** - Standalone local AI voice recorder (`Works Standalone` · `✨ Local AI` · `🗣️ Speaker ID` · `Zero Cloud`, `$0/month`) for real-time speech transcription, speaker separation, and structured Markdown/OKF Wiki output.
