@@ -254,6 +254,7 @@ Practical guides and interactive notebooks for experimenting with Text-to-Speech
 -   [Brainiall TTS MCP server and OpenAPI examples](https://github.com/fasuizu-br/brainiall-tts-mcp) — hosted neural TTS integration with 54 voices across nine languages, including Brazilian Portuguese.
 -   [F5-TTS Interactive Gradio WebUI](https://github.com/SWivid/F5-TTS) — Multi-speaker zero-shot voice cloning playground.
 -   [GPT-SoVITS WebUI & Colab Notebook](https://github.com/RVC-Boss/GPT-SoVITS) — One-click training and web interface for zero-shot and few-shot voice cloning.
+-   [How to run GPT-SoVITS on a cloud GPU](https://cloudgpu.app/guides/how-to-run-gpt-sovits-on-a-cloud-gpu) — Step-by-step guide to launching the GPT-SoVITS WebUI on a rented GPU and fine-tuning a voice.
 -   [Kokoro-TTS Hugging Face Space](https://huggingface.co/spaces/hexgrad/Kokoro-TTS) — Live interactive playground for testing Kokoro-82M studio voices.
 
 ## Product Demos & Showcase Videos 🎥
