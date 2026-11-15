@@ -89,6 +89,7 @@ Leading platforms offering robust, scalable, and high-quality Text-to-Speech API
 | **Rime Labs** | Rime | Ultra-fast expressive voice API built specifically for interactive conversational AI applications. | **Free** ($5 credit) / PAYG | **$29.5M** (Total Raised) | [Rime](https://rime.ai/) |
 | **Smallest.ai (Waves)** | Smallest.ai | Lightning-fast TTS API with sub-100ms latency designed for real-time conversational agents and voice bots. | **Free** (10k chars/mo) / PAYG ($0.08/1k chars) | **$21M+** (Total Raised) | [Smallest.ai](https://smallest.ai/) |
 | **Lovo.ai (Genny)** | LOVO | Next-gen AI voice generator with 500+ voices in 100+ languages and granular pitch/emphasis controls. | **Free** (14-day Pro trial) / $29 | **$20M** (Estimated) | [Lovo.ai](https://lovo.ai/) |
+| **Yangopen Text to Speech** | Yangopen | Browser TTS with free voices in Vietnamese (2), English (US, UK), Chinese, Japanese, Korean, Thai, French and Spanish; Plus voices add Northern, Central and Southern Vietnamese accents. MP3, M4A, WAV or SRT download; also a remote MCP server for Claude. | **Free** (daily allowance, no account) / prepaid credits | Solo studio (Vietnam) | [Yangopen TTS](https://yangopen.com/tools/text-to-speech/) |
 
 ### 🏗️ Open-Source Text-to-Speech Libraries & Local-First Projects
 
