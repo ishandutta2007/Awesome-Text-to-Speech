@@ -89,6 +89,7 @@ Leading platforms offering robust, scalable, and high-quality Text-to-Speech API
 | **Rime Labs** | Rime | Ultra-fast expressive voice API built specifically for interactive conversational AI applications. | **Free** ($5 credit) / PAYG | **$29.5M** (Total Raised) | [Rime](https://rime.ai/) |
 | **Smallest.ai (Waves)** | Smallest.ai | Lightning-fast TTS API with sub-100ms latency designed for real-time conversational agents and voice bots. | **Free** (10k chars/mo) / PAYG ($0.08/1k chars) | **$21M+** (Total Raised) | [Smallest.ai](https://smallest.ai/) |
 | **Lovo.ai (Genny)** | LOVO | Next-gen AI voice generator with 500+ voices in 100+ languages and granular pitch/emphasis controls. | **Free** (14-day Pro trial) / $29 | **$20M** (Estimated) | [Lovo.ai](https://lovo.ai/) |
+| **Miragea** | Miragea | Voice cloning from a 5-10 second sample, multi-speaker voiceovers in 10 languages, and audio/video-to-subtitle transcription via REST API. | **Free** (2,000 chars) / $1.99 | Early-stage | [Miragea](https://miragea.ai/) |
 
 ### 🏗️ Open-Source Text-to-Speech Libraries & Local-First Projects
 
