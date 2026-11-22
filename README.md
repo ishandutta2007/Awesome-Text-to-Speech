@@ -137,6 +137,7 @@ Almost every speed figure in the tables above is **reported by the vendor or by 
 | Benchmark | What it measures | Machine | Raw data |
 | --- | --- | --- | --- |
 | [tts-cpu-benchmark](https://github.com/obole-ia/tts-cpu-benchmark) | Real-time factor of **Piper** vs **Kokoro-82M**, same text, same protocol, 12 runs each: Piper **×8.11–×8.47**, Kokoro **×0.91–×0.93**. Also isolates the **per-call cost of sentence chunking**: 0.51 s fixed per call. | 2× ARM Neoverse-N1, 11 GiB, **no GPU** | Yes — CC-BY 4.0, plus a dated register of every figure that had to be corrected |
+| [Amazon Polly vs Speakvora speed test](https://speakvora.com/amazon-polly-vs-speakvora-speed-test) | First audible sound, one stream at a time, 10 runs per phrase and engine, four phrases: Speakvora Phonon voices 32–56 ms against Amazon Polly Neural 146–180 ms (about 92–111 ms of that Polly figure is leading silence, reported separately). Run by the vendor, so not independent; the Speakvora server ran on the same machine and Polly was called over the internet, which favours the local server. | Apple M2 MacBook, 16 GB | Yes — raw timings and audio on the page |
 
 > **Why this belongs next to the tables above.** A benchmark that synthesises its test text **in one block** overstates an engine like Kokoro by about **8 %** against what a real pipeline does, because a real pipeline splits into sentences — and the cost is per *call*, not per character. Most published TTS numbers are measured in one block. It is worth knowing which kind of number you are reading.
 
