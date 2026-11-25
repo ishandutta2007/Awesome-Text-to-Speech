@@ -89,6 +89,7 @@ Leading platforms offering robust, scalable, and high-quality Text-to-Speech API
 | **Rime Labs** | Rime | Ultra-fast expressive voice API built specifically for interactive conversational AI applications. | **Free** ($5 credit) / PAYG | **$29.5M** (Total Raised) | [Rime](https://rime.ai/) |
 | **Smallest.ai (Waves)** | Smallest.ai | Lightning-fast TTS API with sub-100ms latency designed for real-time conversational agents and voice bots. | **Free** (10k chars/mo) / PAYG ($0.08/1k chars) | **$21M+** (Total Raised) | [Smallest.ai](https://smallest.ai/) |
 | **Lovo.ai (Genny)** | LOVO | Next-gen AI voice generator with 500+ voices in 100+ languages and granular pitch/emphasis controls. | **Free** (14-day Pro trial) / $29 | **$20M** (Estimated) | [Lovo.ai](https://lovo.ai/) |
+| **Atlas Cloud** | Atlas Cloud | Unified API for 600+ AI models, including text-to-speech models from ElevenLabs (v3, v4, v4-turbo), MiniMax (Speech 2.6/2.8 HD and Turbo), Alibaba Qwen TTS, Google Gemini TTS and xAI TTS, plus speech-to-text (xAI STT, ByteDance Seed ASR). | Pay-as-you-go | Not disclosed | [Atlas Cloud](https://www.atlascloud.ai/) |
 
 ### 🏗️ Open-Source Text-to-Speech Libraries & Local-First Projects
 
